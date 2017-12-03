@@ -1,0 +1,143 @@
+.header {
+  overflow: hidden;
+  top:0;
+  height: auto;
+  width: 100%;
+  background: lightblue;
+  position: fixed;
+}
+.nav {
+  margin: 40px 10px;
+  float: right
+}
+.nav a {
+  margin: 20px;
+  font-weight: bolder;
+}
+.hlogo {
+float: left;
+height: 100px;
+width: auto;
+}
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#Home{
+  margin-top: 100px;
+  background-image: url("../img/garden-flower-leaf.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.article1 {
+  display: block;
+  background-color: rgba(242, 242, 242, 0.42);
+  width: 40%;
+  height: 50%;
+  overflow: hidden;
+  margin-left: 2%;
+}
+.paragraphe1 {
+  text-align: justify;
+  text-align-last: left;
+  width: 70%;
+  max-height: 50%;
+  display: block;
+  margin: auto;
+  font-style: italic;
+  font-weight: bolder;
+}
+.titre1 {
+  text-align: center;
+  font-weight: bolder;
+}
+.bouton {
+  margin-left: 15%;
+  display: inline-block;
+  margin-top: 5%;
+  border: 2px solid lightblue;
+  background-color: lightblue;
+  color: black;
+  box-shadow: 2px 2px 2px black;
+  font-weight: bolder;
+  padding: 5px 7px;
+  text-decoration: none;
+  opacity: 1;
+}
+.div {
+  width: 100%;
+  height: 40%;
+}
+#Product {
+  height: 500px;
+  width: 100%;
+  background: radial-gradient(ellipse at center, #E8E8E8 0%, #F3ECEC 45%, lightblue 100%);
+  overflow: hidden;
+}
+.titre2 {
+  height: 25%;
+  text-align: right;
+  margin-right: 2%;
+}
+.strut, .titre2enfant {
+display: inline-block;
+}
+.strut{
+  height:100%;
+  vertical-align:middle;
+}
+.cards {
+  height: 50%;
+  width:100%;
+}
+
+.card {
+  display: inline-block;
+  width: 20%;
+  margin: auto;
+  height: 96%;
+  overflow: hidden;
+  margin-left: 2.2%;
+  margin-right: 2.2%;
+  background-color: #E8E8E8;
+  box-shadow: 2px 2px 2px grey;
+}
+.cardimg {
+  width: 96%;
+  height: 75%;
+  display: block;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  overflow: hidden;
+}
+.cardimg img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+.h3 {
+margin-left: 1%;
+margin-right: 0%;
+}
+.prix {
+  margin-right: 1%;
+  margin-left: 0%;
+  text-align: center;
+  border: 2px solid lightblue;
+  background-color: lightblue;
+  color: black;
+  font-weight: bolder;
+  padding: 2px;
+}
+.cardinfo > * {
+  display: inline-block;
+  width: 46%;
+}
