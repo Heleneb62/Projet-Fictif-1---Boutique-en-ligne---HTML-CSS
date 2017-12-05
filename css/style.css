@@ -10,9 +10,11 @@
   margin: 40px 10px;
   float: right
 }
-.nav a {
+.nav .a {
   margin: 20px;
   font-weight: bolder;
+  color: black;
+  text-decoration: none;
 }
 .hlogo {
 float: left;
@@ -224,4 +226,49 @@ footer {
 }
 .adroite {
   float:right;
+}
+.ligne1, .ligne2, .text {
+  width: 100%;
+  text-align: center;
+}
+#message, #email, #nom {
+  width: 90%;
+  border-radius: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: initial;
+}
+#nom, #email, #envoyer {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#message {
+  height: 100%;
+}
+#envoyer {
+  border-radius: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: initial;
+  color: grey;
+  float:right;
+}
+.ligne1 {
+  padding-top: 4.5%;
+  height: 8%;
+}
+.ligne2 {
+  height: 8%;
+}
+.ligne2, .text {
+  padding-top: 2%;
+}
+.submit {
+  height: 8%;
+  width: 91%;
+  margin: auto;
+}
+.text {
+  padding-bottom: 1.2%;
+  height: 43%;
 }

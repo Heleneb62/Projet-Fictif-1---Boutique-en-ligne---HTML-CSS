@@ -10,10 +10,10 @@
       <header class="header">
         <img src="img/logo2.png" class="hlogo">
         <nav class="nav">
-          <a>Home</a>
-          <a>Produit</a>
-          <a>Boutique</a>
-          <a>Contact</a>
+          <a href="#Home" class="a">Home</a>
+          <a href="#Product" class="a">Produit</a>
+          <a href="#store" class="a">Boutique</a>
+          <a href="#contact" class="a">Contact</a>
         </nav>
       </header>
       <section id="Home">
@@ -98,8 +98,12 @@
       <section id="contact">
         <div class="divcontact">
         </div>
-        <article class="formulaire">
-        </article>
+        <form class="formulaire">
+          <div class="ligne1"><input type="text" id="nom" name="nom" placeholder="Nom Prénom"></div>
+          <div class="ligne2"><input type="email" id="email" name="email" placeholder="Votre adresse électronique"></div>
+          <div class="text"><textarea placeholder="Votre message" id="message"></textarea></div>
+          <div class="submit"><input type="submit" id="envoyer" text="Envoyer"></div>
+        </form>
       </section>
       <footer>
         <nav class="nav2">
