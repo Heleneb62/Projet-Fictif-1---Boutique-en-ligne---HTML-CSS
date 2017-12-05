@@ -96,15 +96,14 @@ display: inline-block;
   height: 50%;
   width:100%;
 }
-
 .card {
   display: inline-block;
   width: 20%;
   margin: auto;
   height: 96%;
   overflow: hidden;
-  margin-left: 2.2%;
-  margin-right: 2.2%;
+  margin-left: 2.35%;
+  margin-right: 2.35%;
   background-color: #E8E8E8;
   box-shadow: 2px 2px 2px grey;
 }
@@ -140,4 +139,89 @@ margin-right: 0%;
 .cardinfo > * {
   display: inline-block;
   width: 46%;
+}
+#store {
+  height: 500px;
+  width: 100%;
+  background-image: url("../img/home1.png");
+  background-size: cover;
+}
+.div2 {
+  width: 100%;
+  height: 46%;
+}
+.article2 {
+  display: block;
+  width: 40%;
+  height: 50%;
+  float: right;
+  background-color: rgba(242, 242, 242, 0.42);
+  overflow: hidden;
+  margin-right: 2%;
+}
+.titreh2 {
+  text-align: center;
+  font-weight: bolder;
+}
+.paragraphe2 {
+  text-align: justify;
+  text-align-last: right;
+  width: 70%;
+  max-height: 50%;
+  display: block;
+  margin: auto;
+  font-style: italic;
+  font-weight: bolder;
+}
+.mail {
+  display: inline-block;
+  margin-left: 37%;
+}
+.article2 img {
+  margin-top: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 40px;
+  width: 40px;
+}
+.test {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+#contact {
+  height: 500px;
+  width: 100%;
+  background-color: rgba(46, 138, 61, 0.3);
+}
+.divcontact {
+  height: 15%;
+  width: 100%;
+}
+.formulaire {
+  width: 55%;
+  height: 70%;
+  background-color: rgba(242, 242, 242, 0.42);
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  background: rgb(245, 240, 240);
+}
+.nav2 {
+  margin: 40px 10px;
+  float: left;
+}
+.a2 {
+  height: 100px;
+}
+.nav2 .a2 {
+  font-weight: bolder;
+  margin: 20px;
+}
+.adroite {
+  float:right;
 }
