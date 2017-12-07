@@ -108,6 +108,10 @@ display: inline-block;
   margin-right: 2.35%;
   background-color: #E8E8E8;
   box-shadow: 2px 2px 2px grey;
+  transition: transform 1s;
+}
+.card:hover {
+    transform: rotate(360deg);
 }
 .cardimg {
   width: 96%;
@@ -132,15 +136,30 @@ margin-right: 0%;
   margin-right: 1%;
   margin-left: 0%;
   text-align: center;
-  border: 2px solid lightblue;
+  border: 2px outset grey;
+  box-shadow: 2px 2px 2px grey;
   background-color: lightblue;
   color: black;
   font-weight: bolder;
   padding: 2px;
+  transition: transform 0.25s;
+}
+.prix:hover {
+  background-color: pink;
+  color: red;
+  font-style: oblique;
+  font-weight: bolder;
+  border: 2px outset pink;
+  box-shadow: 2px 2px 2px black;
+  transform: rotate(5400deg);
 }
 .cardinfo > * {
   display: inline-block;
   width: 46%;
+}
+.cardinfo {
+  margin-right: 1%;
+  margin-left: 1%;
 }
 #store {
   height: 500px;
@@ -209,18 +228,23 @@ margin-right: 0%;
 }
 footer {
   overflow: hidden;
-  height: auto;
+  height: 100px;
   width: 100%;
   background: rgb(245, 240, 240);
 }
 .nav2 {
-  margin: 40px 10px;
+  margin: 39.5px 10px;
   float: left;
+  font-weight: bolder;
 }
 .a2 {
   height: 100px;
 }
-.nav2 .a2 {
+.icones {
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+.nav3 .adroite {
   font-weight: bolder;
   margin: 20px;
 }
