@@ -201,7 +201,9 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-bottom: 2%;
-  font-family: "bkobiii", sans-serif;
+}
+.h3 {
+	  font-family: "bkobiii", sans-serif;
 }
 .prix {
   margin-left: 19%;
@@ -212,7 +214,7 @@ body {
   font-weight: bolder;
   padding: 2%;
   transition: ease 0.3s;
-  font-family: "Good night", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 /*lors du survol du prix*/
 .prix:hover {
