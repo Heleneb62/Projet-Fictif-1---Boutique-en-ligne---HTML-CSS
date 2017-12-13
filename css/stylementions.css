@@ -3,10 +3,7 @@
 	font-family: "Good night";
 	src: url('../fonts/Good-night.ttf') format('truetype');
 }
-@font-face {
-  font-family: "bkobiii";
-  src:url('../fonts/bkobiii.ttf') format('truetype');
-}
+
 /***********************************BODY***************************************/
 body {
   margin-top: 0;

@@ -1,3 +1,7 @@
+@font-face {
+	font-family: "Good night";
+	src: url('../fonts/Good-night.ttf') format('truetype');
+}
 .header {
   overflow: hidden;
   top:0;
@@ -15,6 +19,7 @@
   font-weight: bolder;
   color: black;
   text-decoration: none;
+  font-family: "Good night", sans-serif;
 }
 .hlogo {
 float: left;
@@ -27,6 +32,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 #Home{
@@ -54,6 +60,7 @@ body {
   margin: auto;
   font-style: italic;
   font-weight: bolder;
+  font-size: small;
 }
 .titre1 {
   text-align: center;
@@ -193,6 +200,7 @@ margin-right: 0%;
   margin: auto;
   font-style: italic;
   font-weight: bolder;
+  font-size: small;
 }
 .mail {
   display: inline-block;
@@ -209,6 +217,9 @@ margin-right: 0%;
   display: inline-block;
   text-align: center;
   width: 100%;
+}
+.test a {
+    text-decoration: none;
 }
 #contact {
   height: 500px;
